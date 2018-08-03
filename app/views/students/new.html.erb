@@ -8,9 +8,11 @@
   <label>Student Last Name:</label><br>
   <input id="last_name" name="student[last_name]"><br>
   
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  
   <input type="submit" value="Submit Student">
    
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  
   
   
 </form>
