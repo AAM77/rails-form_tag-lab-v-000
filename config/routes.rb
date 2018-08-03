@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get '/students/students', to: 'students#index', as: 'students'
   get '/students/:id', to: 'students#show', as: 'student'
   get '/students/new', to: 'students#new', as: 'new_student'
-  post '/students/posts', to: 'students#create'
+  post '/students/students', to: 'students#create'
   
 end
